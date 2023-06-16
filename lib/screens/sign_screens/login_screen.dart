@@ -15,7 +15,7 @@ class LoginScreen extends StatelessWidget {
 
   Future<void> loginUser(BuildContext context) async {
     final url = Uri.parse(
-        'http://185.132.55.54:8000/login/'); // Replace with your login API URL
+        'http://185.132.55.54:8000/login/');
 
     try {
       final response = await http.post(
